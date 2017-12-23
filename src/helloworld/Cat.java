@@ -5,11 +5,14 @@ public class Cat {
 		// TODO Auto-generated method stub
 		Toy obj = new Demo();
 		obj.getcolour();
+		Toy obj1=new Demo();
+		obj1.makesound();
 	}
 
 }
   interface Toy{
 	   public void getcolour();
+	   public void makesound();
   }
   
   
@@ -17,6 +20,12 @@ public class Cat {
 	  public void getcolour()
 	  {
 		  System.out.println("my colour is black");
+		  
+	  }
+	  public void makesound()
+	  {
+		  System.out.println("Wolf Wolf");
+		  
 	  }
 	  
   }
